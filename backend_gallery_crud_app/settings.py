@@ -34,7 +34,6 @@ CORS_ALLOW_HEADERS = ['*']
 
 CORS_ORIGIN_WHITELIST = [
      'http://localhost:4200',
-     'https://frontend-gallery-app.herokuapp.com/',
      'https://frontend-gallery-app.herokuapp.com'
 ]
 
