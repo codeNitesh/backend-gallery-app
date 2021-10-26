@@ -27,8 +27,10 @@ SECRET_KEY = 'django-insecure-j-f3g3gh!six!w9*b(^t8)me%r1w^k_5c#6@330st$kza(vuqa
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['backend-gallery-app.herokuapp.com']
+CORS_ORIGIN_ALLOW_ALL = True
 
+ALLOWED_HOSTS = ['*']
+CORS_ALLOW_HEADERS = ['*']
 
 # Application definition
 
