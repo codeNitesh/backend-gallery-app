@@ -32,6 +32,10 @@ CORS_ORIGIN_ALLOW_ALL = True
 ALLOWED_HOSTS = ['*', 'http://localhost:4200/']
 CORS_ALLOW_HEADERS = ['*']
 
+CORS_ORIGIN_WHITELIST = [
+     'http://localhost:4200/'
+]
+
 # Application definition
 
 INSTALLED_APPS = [
