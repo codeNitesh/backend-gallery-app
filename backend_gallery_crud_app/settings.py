@@ -29,7 +29,7 @@ DEBUG = True
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-ALLOWED_HOSTS = ['*', 'http://localhost:4200']
+ALLOWED_HOSTS = ['*', 'https://frontend-gallery-app.herokuapp.com']
 CORS_ALLOW_HEADERS = ['*']
 
 CORS_ORIGIN_WHITELIST = [
